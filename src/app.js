@@ -9,7 +9,7 @@ const templatePath= path.join(__dirname,"../templates/views")
 const partialPath = path.join(__dirname,"../templates/partials")
 
 const app = express()
-const port = process.env.port || 3000
+const port = process.env.aPORT || 3000
 
 //define path for express directory
 app.set('view engine', 'hbs')
