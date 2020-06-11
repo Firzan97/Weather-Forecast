@@ -1,3 +1,4 @@
+//Expressjs
 const express = require("express")
 const path = require('path')
 const hbs = require('hbs')
@@ -9,7 +10,8 @@ const templatePath= path.join(__dirname,"../templates/views")
 const partialPath = path.join(__dirname,"../templates/partials")
 
 const app = express()
-const port = process.env.aPORT || 3000
+const port = process.env.PORT || 3000
+const name= "Firzan Azrai"
 
 //define path for express directory
 app.set('view engine', 'hbs')
@@ -21,21 +23,21 @@ app.use(express.static(publicDir))
 app.get('',(req,res)=>{
     res.render('index',{
         title: "Weather App",
-        name: "Andrew Mead"
+        name: name
     })
 })
 
 app.get('/about',(req,res)=>{
     res.render('about',{
         title: "About Me",
-        name: "Andrew Mead"
+        name: name
     })
 })
 
 app.get('/help',(req,res)=>{
     res.render('help',{
         title: "Help",
-        name: "Andrew Mead"
+        name: name
     })
 })
 
