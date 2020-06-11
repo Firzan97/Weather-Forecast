@@ -29,7 +29,7 @@ weatherform.addEventListener('submit',(e)=>{
             {
             messageOne.textContent="Temperature is "+data.forecast.temperature+ " °C but it feels like "+data.forecast.feelslike+" °C"
             messageTwo.textContent=data.location
-            messageThree.textContent="Chance for rain: "+data.forecast.chanceRain+"%"
+            messageThree.textContent="Chance for rain: "+(data.forecast.chanceRain*10)+"%"
             messageFour.textContent="Humidity: "+ data.forecast.humidity
             document.getElementById('imgWeather').src=data.forecast.icon
             messageFive.textContent= data.forecast.description
