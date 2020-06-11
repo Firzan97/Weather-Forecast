@@ -16,6 +16,11 @@ body{
 
 .portrait {
     width: 300px;
+    transition: width 1s;
+}
+
+.portrait:hover{
+    width: 400px;
 }
 
 footer{
@@ -41,6 +46,12 @@ header a{
     color: #88888888;
     text-decoration: none;
 }
+header a:hover{
+    display: inline-block;
+    margin-right: 16px;
+    color: #3f3f44;
+    text-decoration: underline;
+}
 input{
   border: 1px solid #cccccc;
   padding: 8px;
@@ -49,7 +60,7 @@ input{
 button{
   cursor: pointer;
   border: 1px solid #888888;
-  background: #888888;
+  background: #5c2a9d;
   color: white;
   padding: 8px;
 }
