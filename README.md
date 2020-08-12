@@ -5,4 +5,4 @@ Weather forecast application using Node.js & Express.js <br />
 
 ![ScreenShot 1](https://raw.githubusercontent.com/Firzan97/Weather-Forecast/master/public/img/weather1.PNG)
 
-![ScreenShot 1](https://raw.githubusercontent.com/Firzan97/Weather-Forecast/master/public/img/weather2.PNG)
+![ScreenShot 2](https://raw.githubusercontent.com/Firzan97/Weather-Forecast/master/public/img/weather2.PNG)
